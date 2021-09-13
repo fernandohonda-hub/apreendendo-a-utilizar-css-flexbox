@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	margin: 0;
+}
+
+/* Classes de utilidade */
+.button {
+	padding: 15px;
+	background-color: #333;
+	color: #eee;
+	border: none;
+}
+
+.box {
+	width: 80%;
+	margin: auto;
+}
+
+.container {
+	background-color: #333;
+	color: #eee;
+	width: 80%;
+
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	/* Mesma coisa que acima */
+	margin: auto;
+
+	padding-top: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 60px;
+	/* Mesma coisa que acima */
+	padding: 60px;
+
+	border-top: 15px solid red;
+	border-left: 15px solid red;
+	border-right: 15px solid red;
+	border-bottom: 15px solid red;
+	/* Mesma coisa que acima */
+	border: 15px solid rgb(0, 0, 255);
+}
+
+.main-aside h2 {
+	text-align: center;
+}
+.main-aside h2:hover {
+	color: green;
+	cursor: pointer;
+}
+
+.main-aside ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.main-aside ul a {
+	text-decoration: none;
+	color: black;
+}
+
+.main-aside ul a:hover {
+	color: red;
+}
+
+.main-aside ul a:visited {
+	color: green;
+}
+
+/* Formulários */
+.main-form {
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.main-form .form-group {
+	padding-bottom: 10px;
+}
+
+.main-form .form-group input {
+	padding: 10px;
+	width: 100%;
+}
+
+.main-form .form-group label {
+	display: block;
+}
+
+/* Positions */
+.relative {
+	position: relative;
+	border: 3px solid #333;
+	height: 500px;
+	border-radius: 7px;
+}
+
+.relative .absolute {
+	position: absolute;
+	bottom: 0;
+}
+
+.relative .absolute h1 {
+	margin: 0;
+}
+
+/* Barra de navegação */
+#main-navbar {
+	background: #333;
+	color: #eee;
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+	position: sticky;
+	top: 0;
+}
+
+/* Fixed Button */
+.fixed-button {
+	background: #333;
+	color: #eee;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 20px;
+}
+
+/* Categories */
+.categories ul {
+	list-style: none;
+}
+
+/* .categories ul li:first-child {
+	color: red;
+}
+
+.categories ul li:last-child {
+	color: green;
+}
+
+.categories ul li:nth-child(3) {
+	color: blue;
+} */
+
+.categories ul li:nth-child(even) {
+	color: red;
+}
+
+.categories ul li:nth-child(odd) {
+	color: blue;
+}
